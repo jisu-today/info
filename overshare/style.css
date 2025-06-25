@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: "Avenir";
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+}
+
+p {
+  margin: 1.25em 0;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+figure {
+  margin: 1.75em 0;
+}
+
+figure:last-child,
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: black;
+  margin-bottom: 0.15em;
+  margin-top: -1.5em;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.25em;
+  color: black;
+  margin-bottom: 0.15em;
+  margin-top: 0.05em;
+  font-weight: bold;
+}
+
+h3 {
+  color: #0D0D05;
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+  padding-right: 1em;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+  padding-right: 1em;
+}
+
+a {
+  color: dodgerblue;
+/*  text-decoration: none;*/
+  background: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+  background: dodgerblue;
+  color: white;
+}
+
+ul {
+  list-style-type: inside;
+  padding-left: 1em;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  padding-left: 0.5em;
+  text-align: left;
+}
+
+li span {
+  position: relative;
+  left: -10px;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+
+hr {
+  border: 0;
+  border-bottom: 1px solid black;
+  margin: 1em 0;
+}
+
+.sizer {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.whole {
+  /*max-width: 450px;*/
+  max-width: 500px;
+  margin: 30px auto 50px;
+  text-align: left;
+  position: relative;
+}
+
+.whole .content {
+  background: white;
+  border: 0px solid black;
+  padding: 24px;
+  position: relative;
+}
+
+table {
+  width: 100%;
+}
+
+table.smart {
+  margin: 0.5em 0 1.25em;
+}
+
+table.smart,
+table.smart tr,
+table.smart td,
+table.smart th {
+  border-collapse: collapse;
+  padding: 11px 12px 10px;
+}
+
+table.smart td,
+table.smart th {
+  border: 1px solid black;
+}
+
+table.smart td.image {
+  padding: 0;
+}
+
+table.smart td.image img {
+  display: block;
+}
+
+table.smart th {
+  text-align: left;
+  background: white;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .whole {
+    margin: 11px;
+  }
+
+}
