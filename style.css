@@ -90,8 +90,8 @@ ul {
 }
 
 li {
-  padding-left: 0.5em;
   text-align: left;
+  margin-left: 10px;
 }
 
 li span {
